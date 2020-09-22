@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.testng.concepts.TimeOutTest"/>
+      <class name="org.testng.concepts.Sample"/>
+      <class name="org.testng.concepts.DataProviderTest"/>
+      <class name="org.testng.concepts.PriorityTest"/>
+      <class name="org.testng.concepts.GroupTest"/>
+      <class name="org.testng.concepts.DependancyTest"/>
+      <class name="org.testng.concepts.ExceptionTest"/>
+      <class name="org.testng.concepts.InvocationTest"/>
+      <class name="org.testng.concepts.IgnoreTest"/>
+      <class name="org.testng.concepts.AnnotationsSTCM"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
